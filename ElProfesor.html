@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elprofesor</title>
+</head>
+<body>
+    <script>
+        const Nota1 = parseFloat(prompt("ingresa la primera nota"));
+        const Nota2 = parseFloat(prompt("ingresa la segunda nota"));
+
+        const SumaTotal = Nota1+Nota2;
+        const Promedio = SumaTotal/2;
+         
+
+
+        if(Nota1>Nota2){
+
+            var NotaMaxima = Nota1;
+
+        }else{
+
+            var NotaMaxima = Nota2;
+
+        }
+
+        document.write(`Suma total: ${SumaTotal} <br>`);
+        document.write(`Promedio: ${Promedio} <br>`);
+        document.write(`Nota Maxima: ${NotaMaxima}`);
+
+
+
+
+    </script>
+</body>
+</html>
