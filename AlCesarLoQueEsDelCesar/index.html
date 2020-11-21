@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Cesar Lo Que Es Del Cesar</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <script>
+        const Mensaje=prompt("ingresa un mensaje a cifrar");
+
+        const TratamientoMsj = Minusculas(Mensaje);
+
+        const MensajeArray = StringToArray(TratamientoMsj);
+
+        const Cifrado = Cesar(MensajeArray);
+
+        document.write(Unir(Cifrado));
+
+    </script>    
+</body>
+</html>
